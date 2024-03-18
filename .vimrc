@@ -1,5 +1,16 @@
 " {{{ BASIC SETUP
 " BASIC SETUP:
+" To install polyglot and use these below follow these steps
+" 1) mkdir -p ~/.vim/pack/plugins/start
+" 2) git clone --depth 1 https://github.com/sheerun/vim-polyglot.git ~/.vim/pack/plugins/start/vim-polyglot
+" 3) curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" 4) call plug#begin('~/.vim/plugged')
+"Plug 'sheerun/vim-polyglot'
+"call plug#end()
+"5) go into vim and type :PlugInstall
+"
+"All done :)
 
 set nocompatible
 call plug#begin('~/.vim/plugged')
